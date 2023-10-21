@@ -1,0 +1,30 @@
+.container-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    background-image: linear-gradient(0deg, #E23E57, #522546);
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.image-banner {
+    margin-top: 150px;
+    width: 70%;
+    height: auto;
+}
+
+.intro {
+    margin-top: -1px;
+    font-weight: 900;
+    font-family: monospace;
+}
