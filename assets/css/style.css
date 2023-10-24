@@ -1096,7 +1096,7 @@ body {
  * #FOOTER
 \*-----------------------------------*/
 
-.footer {
+/* .footer {
   font-family: var(--ff-roboto);
 }
 
@@ -1234,7 +1234,7 @@ a.footer-link:is(:hover, :focus) {
 .copyright-link {
   display: inline-block;
   color: var(--bittersweet);
-}
+} */
 
 /*-----------------------------------*\
  * #GO TOP
