@@ -1,6 +1,4 @@
-'use strict';
-
-
+"use strict";
 
 /**
  * navbar toggle
@@ -20,8 +18,6 @@ for (let i = 0; i < navElems.length; i++) {
   });
 }
 
-
-
 /**
  * header & go top btn active on page scroll
  */
@@ -37,4 +33,14 @@ window.addEventListener("scroll", function () {
     header.classList.remove("active");
     goTopBtn.classList.remove("active");
   }
+});
+
+document.getElementById("home").addEventListener("click", function () {
+  window.location.href = "/index.html";
+});
+document.getElementById("about").addEventListener("click", function () {
+  window.location.href = "/about.html";
+});
+document.getElementById("contact").addEventListener("click", function () {
+  window.location.href = "/contact.html";
 });
