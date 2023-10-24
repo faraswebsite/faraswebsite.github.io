@@ -54,65 +54,82 @@
   --section-padding: 60px;
 }
 
-.banner2 {
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-  background-image: linear-gradient(180deg, hsl(0, 0%, 74%), hsl(5, 100%, 69%));
-  flex-direction: column;
-  width: 100%;
-  min-height: 600px;
-  border-radius: 10px;
-}
-
-.colorful-form {
-  max-width: 50%;
-  margin: 0 auto;
+.team-section {
+  background-color: var(--rich-black-fogra-29);
+  color: var(--cultured);
   padding: 50px;
-  background-image: linear-gradient(135deg, #168781, #8be5d3);
+  text-align: center;
+}
+
+/* Styles for the Contact Form */
+.contact-form {
+  background-color: var(--oxford-blue_60);
+  color: var(--white);
+  padding: 20px;
   border-radius: 10px;
-  margin-top: -30px;
-  margin-bottom: 20px;
 }
 
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-label {
+.contact-form label {
   display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #333;
+  margin-bottom: 10px;
 }
 
-.form-input {
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: 10px;
+  margin-bottom: 20px;
   border: none;
-  background-color: #fff;
-  margin-left: -10px;
-  color: #333;
+  background-color: var(--smoky-black);
+  color: var(--white);
   border-radius: 5px;
 }
 
-textarea.form-input {
-  height: 100px;
-}
-
-.form-button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #1b8782;
-  color: #fff;
+.contact-form button {
+  background-color: var(--bittersweet);
+  color: var(--white);
   border: none;
+  padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.form-button:hover {
-  background-color: #8fe1d2;
-  color: #000;
+/* team */
+.team-section {
+  background: linear-gradient(0deg, hsl(5, 100%, 73%), #fff);
+  color: var(--cultured);
+  padding: 50px;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-member {
+  text-align: center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Setiap tim akan memakan 30% lebar kontainer */
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid var(--smoky-black);
+}
+
+.team-member h3 {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.team-member p {
+  font-size: 1.2rem;
+  text-align: center;
 }
