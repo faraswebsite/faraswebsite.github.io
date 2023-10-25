@@ -54,16 +54,18 @@
   --section-padding: 60px;
 }
 
-.team-section {
-  background-color: var(--rich-black-fogra-29);
-  color: var(--cultured);
-  padding: 50px;
-  text-align: center;
+/* Styles for the Contact Form */
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px; /* This makes the container take up the full viewport height */
 }
 
-/* Styles for the Contact Form */
 .contact-form {
-  background-color: var(--oxford-blue_60);
+  background: linear-gradient(0deg, #fff, hsl(5, 100%, 69%));
   color: var(--white);
   padding: 20px;
   border-radius: 10px;
@@ -76,12 +78,12 @@
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
+  width: auto;
   padding: 10px;
   margin-bottom: 20px;
   border: none;
-  background-color: var(--smoky-black);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black_90);
   border-radius: 5px;
 }
 
@@ -118,7 +120,7 @@
 .team-member img {
   border-radius: 50%;
   width: 150px;
-  height: 150px;
+  height: auto;
   object-fit: cover;
   border: 5px solid var(--smoky-black);
 }
