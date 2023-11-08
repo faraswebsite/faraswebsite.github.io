@@ -78,14 +78,14 @@
   margin-bottom: 10px;
 }
 
-.form-input{
+.form-input {
   margin: 5px;
   border-style: groove;
   border-width: 3px;
   border-radius: 5%;
 }
 
-.contact-form input{
+.contact-form input {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -94,7 +94,7 @@
 }
 
 .contact-form textarea {
-  width: auto;
+  width: 500px;
   padding: 10px;
   box-sizing: border-box;
   background-color: var(--white);
@@ -114,7 +114,6 @@
 
 /* team */
 .team-section {
-  
   color: var(--black_90);
   padding: 50px;
   text-align: center;
@@ -153,11 +152,10 @@
   text-align: center;
 }
 
-.form{
+.form {
   margin-top: 25px;
 }
 
-.contact-form{
-  
+.contact-form {
   background-image: linear-gradient(30deg, hsl(5, 100%, 73%), #fff);
 }
